@@ -1,6 +1,8 @@
 import pandas as pd
 
-member = dict(name="",
-              age=int(),
-              gender=int())
-
+def inputMember(name, age, gender):
+  member = dict(name=name,
+              age=age,
+              gender=gender)
+  return member
+  
