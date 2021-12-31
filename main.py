@@ -9,3 +9,5 @@ def inputMember(name, age, gender):
 def stockData(member: dict, df: pd.DataFrame) -> pd.DataFrame:
   df.append(member)
   return df
+
+list = []
