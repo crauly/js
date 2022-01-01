@@ -3,6 +3,7 @@ class memberSetup():
         self.name = str()
         self.age = int()
         self.gender = int()
+        self.askInfo()
 
     def inputName(self, name: str):
         self.name = name
