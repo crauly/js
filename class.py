@@ -1,4 +1,4 @@
-class memberSetup():
+class Member_Setup():
     def __init__(self):
         self.name = str()
         self.age = int()
